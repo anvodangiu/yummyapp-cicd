@@ -1,0 +1,9 @@
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.coverage
+coverage_html/
+.uv-cache/
+.uv-python/
+bai_thuc_hanh_7.pdf

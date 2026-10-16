@@ -1,0 +1,10 @@
+[flake8]
+exclude =
+    .git,
+    .venv,
+    .uv-cache,
+    .uv-python,
+    coverage_html,
+    venv,
+    yummyapp-cicd
+max-line-length = 88

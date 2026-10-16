@@ -1,0 +1,7 @@
+[run]
+source =
+    gps_service
+    yummy_app
+
+[report]
+show_missing = True

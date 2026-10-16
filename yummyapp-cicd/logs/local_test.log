@@ -1,0 +1,35 @@
+﻿python : E
+At line:1 char:1
++ python -m coverage run -m unittest discover -s . -p "test_*.py" 2>&1  ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (E:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+======================================================================
+ERROR: test_yummy_app (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_yummy_app
+Traceback (most recent call last):
+  File "C:\Program Files\Python310\lib\unittest\loader.py", line 436, in 
+_find_test_path
+    module = self._get_module_from_name(name)
+  File "C:\Program Files\Python310\lib\unittest\loader.py", line 377, in 
+_get_module_from_name
+    __import__(name)
+  File "D:\2312567_VTMAn_Lab7\yummyapp-cicd\test_yummy_app.py", line 2, in <module>
+    from yummy_app import YummyApp
+  File "D:\2312567_VTMAn_Lab7\yummyapp-cicd\yummy_app.py", line 28
+    raise ConnectionError ( " Khong co ket noi mang de xac thuc ma .
+                            ^
+SyntaxError: unterminated string literal (detected at line 28)
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+Name                Stmts   Miss  Cover   Missing
+-------------------------------------------------
+test_yummy_app.py      18     16    11%   7-29
+-------------------------------------------------
+TOTAL                  18     16    11%

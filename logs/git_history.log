@@ -1,0 +1,9 @@
+* 1881c52 - 2312567 - Vo Thi Minh An (Fri Oct 16 23:16:24 2026 +0700) : fix: restore YummyApp CI pipeline and quality gate
+* 657dfd9 - 2312567 - Vo Thi Minh An (Fri Oct 16 16:43:16 2026 +0700) : ci: add basic github actions workflow
+* 25bdbdb - Võ Thị Minh Ân (Fri Oct 16 16:00:32 2026 +0700) : Create main.yml
+* 15ada7e - 2312567 - Vo Thi Minh An (Fri Oct 16 15:39:16 2026 +0700) : ci: trigger github actions workflow
+* ffc1716 - 2312567 - Vo Thi Minh An (Fri Oct 16 15:38:33 2026 +0700) : fix: move .github workflow to repo root
+* 631487f - 2312567 - Vo Thi Minh An (Fri Oct 16 15:29:34 2026 +0700) : ci: add step 6 to upload html coverage report artifact
+* b13da6b - 2312567 - Vo Thi Minh An (Fri Oct 16 15:27:52 2026 +0700) : fix: remove intentional syntax error to restore green build
+* 74381b8 - 2312567 - Vo Thi Minh An (Fri Oct 16 15:13:55 2026 +0700) : ci: add GitHub Actions workflow configuration
+* f0c64f1 - 2312567 - Vo Thi Minh An (Fri Oct 16 15:04:53 2026 +0700) : feat: initial commit for YummyApp

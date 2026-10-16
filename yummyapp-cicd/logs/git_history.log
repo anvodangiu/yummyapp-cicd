@@ -1,0 +1,4 @@
+* 631487f - 2312567 - Vo Thi Minh An (Fri Oct 16 15:29:34 2026 +0700) : ci: add step 6 to upload html coverage report artifact
+* b13da6b - 2312567 - Vo Thi Minh An (Fri Oct 16 15:27:52 2026 +0700) : fix: remove intentional syntax error to restore green build
+* 74381b8 - 2312567 - Vo Thi Minh An (Fri Oct 16 15:13:55 2026 +0700) : ci: add GitHub Actions workflow configuration
+* f0c64f1 - 2312567 - Vo Thi Minh An (Fri Oct 16 15:04:53 2026 +0700) : feat: initial commit for YummyApp
